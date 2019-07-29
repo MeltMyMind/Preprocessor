@@ -1,11 +1,9 @@
 # Preprocessor
 Tool to preprocess datasets
 
-This is a nice little tool to help anybody with preprocessing csv files for machine learning. 
+This is a nice little tool to help anybody with preprocessing csv files for machine learning. I'm still working on it, but it can be used already nonetheless. 
 
-The frontend was created with TKinter.
-
-A detailed description will follow shortly. 
+A more detailed description will follow shortly. 
 
 To install all the necessary dependencies, use the requirements.txt files like this: 
 pip install -r requirements.txt
