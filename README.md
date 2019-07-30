@@ -16,19 +16,19 @@ To illustrate the basic funcionalities of the PreProHelper, the syntax *Columnna
 Changes the numbers in a column to strings.
 
 Example: 
-DayOfTheWeek: (1, 2, 7, 3) becomes DayOfTheWeek: ("1", "2", "7", "3") 
+*DayOfTheWeek: (1, 2, 7, 3)* becomes *DayOfTheWeek: ("1", "2", "7", "3")*
 
 **Categorical to Numerical**
 Labelencodes the strings in a column to numbers.
 
 Example: 
-Animals: ("Cat", "Dog", "Mouse", "Cat") becomes Animals: (0, 1, 2, 0).
+*Animals: ("Cat", "Dog", "Mouse", "Cat")* becomes *Animals: (0, 1, 2, 0)*.
 
 **Categorical to Dummy**
 One-hot encodes all unique values in a column and creates a separate column for each value.
 
 Example: 
-Animals: ("Dog", "Mouse", "Cat", "Mouse") becomes Dog: (1, 0, 0, 0) and Cat: (0, 0, 1, 0) and Mouse: (0, 1, 0, 1)
+*Animals: ("Dog", "Mouse", "Cat", "Mouse")* becomes *Dog: (1, 0, 0, 0)* and *Cat: (0, 0, 1, 0)* and *Mouse: (0, 1, 0, 1)*
 
 **Dummy to Categorical**
 Creates a single column out of multiple dummy encoded columns. 
