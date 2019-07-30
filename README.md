@@ -34,14 +34,19 @@ Example:
 Creates a single column out of multiple dummy encoded columns. 
 
 Example: 
-Dog: (1, 0, 0, 0, 0) and Cat: (0, 0, 1, 0, 1) becomes Animals: ("Dog", "Unknown", "Cat", "Unknown", "Cat").
+*Dog: (1, 0, 0, 0, 0)* and *Cat: (0, 0, 1, 0, 1)* becomes *Animals: ("Dog", "Unknown", "Cat", "Unknown", "Cat")*.
 
 **Dummy to Boolean**
 Changes the 1 and 0 in a column to True and False. 
 
+Example: 
+*isAnimal: (1, 0, 1, 0, 1)* becomes *isAnimal: (True, False, True, False, True)*
+
 **Boolean to Dummy**
 Changes the True and False in a column to 1 and 0. 
 
+Example: 
+*isAnimal: (True, False, True, False, True)* becomes *isAnimal: (1, 0, 1, 0, 1)*
 
 
 ## Setup:
