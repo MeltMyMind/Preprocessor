@@ -360,8 +360,7 @@ button9 = ttk.Button(window, text="<-----", command = bool_to_dummy)
 button10 = ttk.Button(window, text="----->", command = numerical_to_categorical)
 button11 = ttk.Button(window, text="<-----", command = dummy_to_categorical)
 button12 = ttk.Button(window, text="<-----", command = categorical_to_numerical)
-button13 = ttk.Button(window, text="Rename", command = renameColumn
-                    )
+button13 = ttk.Button(window, text="Rename", command = renameColumn)
 button14 = ttk.Button(window, text="Remove NAs", command = removeNAs)
 button15 = ttk.Button(window, text="Change Dir.", command = changeDir)
 button16 = ttk.Button(window, text="Binning", command = binning)
@@ -371,10 +370,8 @@ button16 = ttk.Button(window, text="Binning", command = binning)
 listbox = Listbox(window, width = 20, height = 15,  selectmode = SINGLE,fg='#414141')
 listbox2 = Listbox(window, width = 20, height = 15, selectmode =  EXTENDED,fg='#414141')
 listbox3 = Listbox(window, width = 20, height = 15, selectmode =  SINGLE,fg='#414141')
-listbox4 = Listbox(window, width = 20, height = 15, selectmode =  SINGLE,fg='#414141')
+listbox4 = Listbox(window, width = 20, height = 15, selectmode =  EXTENDED,fg='#414141')
 listbox5 = Listbox(window, width = 20, height = 15, selectmode =  SINGLE,fg='#414141')
-
-
 
 
 n = StringVar()
