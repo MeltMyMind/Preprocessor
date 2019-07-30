@@ -1,9 +1,11 @@
 # PreProHelper
-Tool to preprocess datasets
+A nice handy tool to quickly preprocess datasets.
 
-This is a nice little tool to help anybody with preprocessing csv files for machine learning. I'm still working on it, but it can be used already nonetheless. 
+<img src = "https://imgur.com/tla9Hk3.png" />
 
-A more detailed description will follow shortly. 
+## Motivation 
+
+In my young datascience carreer, I have spent quite some time with preprocessing datasets. I noticed that I was doing the same tedious tasks over and over again, which became boring and time consuming. Therefore I created a nice little tool to help anybody with preprocessing csv files for machine learning. I'm still working on it as I want to integrate many more functionalties, but it can be used already nonetheless. 
 
 ## Setup:
 
