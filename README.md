@@ -89,7 +89,7 @@ To install all the necessary dependencies, use pip in the terminal/command line 
 
 pip install -r requirements.txt
 
-## Getting started:
+## Getting started
 
 **Import dataset:**
 
@@ -114,7 +114,7 @@ Here, the user can perform various functions by selecting a column from the text
 
 The other four textboxes show the types of the various columns in the dataset. Namely: Numerical-, Categorical-, Dummy- and Boolean Columns. Under each textbox there are buttons, which transform the selected column/columns of the textbox above accordingly. See *Arrow functions* for a more detailed description. 
 
-**Export newly created dataset:**
+**Export newly created dataset**
 
 <img src= "https://imgur.com/BcT5lXt.png" />
 
@@ -123,7 +123,7 @@ Once you are done with preprocessing your dataset, you can export it. Simply typ
 The dataset will be exported in your import directory. 
 
 
-## Future Work:
+## Future Work
 
 Future functions will include: 
 
@@ -133,6 +133,6 @@ Future functions will include:
 - Automatic preprocessing 
 - Create program that people can download. 
 
-## Bugs:
+## Bugs
 
 I'm sure yu will still encounter many bugs. Feel free to report them so I can steadily improve the PreProHelper. 
