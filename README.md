@@ -10,6 +10,8 @@ In my young datascience carreer, I have spent quite some time with preprocessing
 
 ## Main functionalities 
 
+To exmplain the functionalities, the syntaxt Columnname: (Columnentry, Columnentry, Columnentry) is used. So for example Animals :("Dog", "Cat", "Mouse", "Bird") would indicate a column with the entries "Dog", "Cat", "Mouse" and "Bird".
+
 **Numerical to Categorical**
 Changes the numbers in a column to strings.
 
@@ -23,13 +25,16 @@ Example:
 Animals: ("Cat", "Dog", "Mouse", "Cat") becomes Animals: (0, 1, 2, 0).
 
 **Categorical to Dummy**
+One-hot encodes all unique values in a column and creates a separate column for each value.
+
+Example: 
+Animals: ("Dog", "Mouse", "Cat", "Mouse") becomes Dog: (1, 0, 0, 0) and Cat: (0, 0, 1, 0) and Mouse: (0, 1, 0, 1)
+
+**Dummy to Categorical**
 Creates a single column out of multiple dummy encoded columns. 
 
 Example: 
 Dog: (1, 0, 0, 0, 0) and Cat: (0, 0, 1, 0, 1) becomes Animals: ("Dog", "Unknown", "Cat", "Unknown", "Cat").
-
-**Dummy to Categorical**
-One-hot encodes all unique values in a column and creates a seprate column for each value. 
 
 **Dummy to Boolean**
 Changes the 1 and 0 in a column to True and False. 
