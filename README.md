@@ -13,11 +13,20 @@ In my young datascience carreer, I have spent quite some time with preprocessing
 **Numerical to Categorical**
 Changes the numbers in a column to strings.
 
+Example: 
+DayOfTheWeek: (1, 2, 7, 3) becomes DayOfTheWeek: ("1", "2", "7", "3") 
+
 **Categorical to Numerical**
-Labelencodes the strings in a column to numbers. Ie. ("Cat", "Dog", "Mouse", "Cat") becomes (0, 1, 2, 0).
+Labelencodes the strings in a column to numbers.
+
+Example: 
+Animals: ("Cat", "Dog", "Mouse", "Cat") becomes Animals: (0, 1, 2, 0).
 
 **Categorical to Dummy**
-Creates a single column out of the 
+Creates a single column out of multiple dummy encoded columns. 
+
+Example: 
+Dog: (1, 0, 0, 0, 0) and Cat: (0, 0, 1, 0, 1) becomes Animals: ("Dog", "Unknown", "Cat", "Unknown", "Cat").
 
 **Dummy to Categorical**
 One-hot encodes all unique values in a column and creates a seprate column for each value. 
