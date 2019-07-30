@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 Description:
 
-Upload dataset: 
+<span style="font-size:bold"> Upload dataset: </span>
 
 Currently only csv's are supported. Other file types will be implemented shortly. 
 
