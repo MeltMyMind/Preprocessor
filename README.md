@@ -52,6 +52,23 @@ Changes the True and False in a column to 1 and 0.
 Example: 
 *isAnimal: (True, False, True, False, True)* becomes *isAnimal: (1, 0, 1, 0, 1)*
 
+### Other functions
+To execute any of the other function, one always needs to press a button to trigger them. Here is short explanation of all the other functions: 
+
+**Delete Column**
+Deletes a column from the dataset. 
+
+Howto: Select a column from the textbox *All Columns of the dataset* and then click on the *Delete Column* button.
+
+**Binning**
+Changes a numerical column into numerical bins.
+
+Howto: First, select a column from the *Numerical Columns* textbox. Then type in the number of bins you want to create from these numerical columns (entry field below *Binning* button). At last, click on the button *Binning*.
+
+**Rename**
+Renames any column. 
+
+Howto: Select a column from the textbox *All Columns of the dataset*. Then, type n a new name for the column int the textfield below the *Rename* button. Then, click on *Rename* to rename the selected column. 
 
 ## Setup:
 
