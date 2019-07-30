@@ -12,7 +12,7 @@ In my young datascience carreer, I have spent quite some time with preprocessing
 
 To illustrate the basic funcionalities of the PreProHelper, the syntax *Columnname: (Columnentry, Columnentry, Columnentry)* is used. So for example *Animals: ("Dog", "Cat", "Mouse", "Bird")* would indicate a column with the Name *Animals* and the entries *"Dog", "Cat", "Mouse" and "Bird"*.
 
-Also, one might notice that there are arrows pointing either to the right or left hand side below the various textboxes. These just indicate in which direction the column is going to be transformed. So if one selects a column in the *Categorical Columns* textbox and then clicks on the "---->" below, the selected column is transformed into a dummy column. Vice vera, if one clicked on  "<----" the slected column would turn into a numerical column. Therefore, I call these functions *Arrow Functions*
+Also, one might notice that there are arrows pointing either to the right or left hand side below the various textboxes. These just indicate in which direction the column is going to be transformed. So if one selects a column in the *Categorical Columns* textbox and then clicks on the "---->" below, the selected column is transformed into a dummy column. Vice vera, if one clicked on  "<----" the slected column would turn into a numerical column. Therefore, I call these functions *Arrow Functions*.
 
 ### Arrow functions
 
