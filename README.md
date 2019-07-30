@@ -13,8 +13,8 @@ The setup is fairly simple, since it is only one python file "PreproHelper.py" w
 The file can either be run directly in any IDE such as Pycharm or Visualstudio or it can be run through the terminal/command line by cd'ing to the corresponding directory and then running the file (ex. python PreproHelper.py). 
 
 **Installing packages/dependencies:**
-The file needs a few packages in order to run. They are all listed in the *requirements.txt* file
-To install all the necessary dependencies, use pip in the terminal/command line like this by first cd'ing to the directory where you put *requirements.txt* and the running: 
+The file needs a few packages in order to run. They are all listed in the *requirements.txt* file.
+To install all the necessary dependencies, use pip in the terminal/command line  by first cd'ing to the directory where you put *requirements.txt* and the running: 
 
 pip install -r requirements.txt
 
