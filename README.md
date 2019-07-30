@@ -123,4 +123,16 @@ Once you are done with preprocessing your dataset, you can export it. Simply typ
 The dataset will be exported in your import directory. 
 
 
+## Future Work:
 
+Future functions will include: 
+
+- Exporting as numpy array (ie. for using with Keras)
+- Being able to import more datatypes
+- Displaying information about the dataset and about individual columns
+- Automatic preprocessing 
+- Create program that people can download. 
+
+## Bugs:
+
+I'm sure yu will still encounter many bugs. Feel free to report them so I can steadily improve the PreProHelper. 
