@@ -135,4 +135,4 @@ Future functions will include:
 
 ## Bugs
 
-I'm sure yu will still encounter many bugs. Feel free to report them so I can steadily improve the PreProHelper. 
+I'm sure you will still encounter many bugs. Feel free to report them so I can steadily improve the PreProHelper. 
