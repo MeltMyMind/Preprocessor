@@ -7,6 +7,29 @@ A nice handy tool to quickly preprocess datasets.
 
 In my young datascience carreer, I have spent quite some time with preprocessing datasets. I noticed that I was doing the same tedious tasks over and over again, which became boring and time consuming. Therefore I created a nice little tool to help anybody with preprocessing csv files for machine learning. I'm still working on it as I want to integrate many more functionalties, but it can be used already nonetheless. 
 
+
+## Main functionalities 
+
+**Numerical to Categorical**
+Changes the numbers in a column to strings.
+
+**Categorical to Numerical**
+Labelencodes the strings in a column to numbers. Ie. ("Cat", "Dog", "Mouse", "Cat") becomes (0, 1, 2, 0).
+
+**Categorical to Dummy**
+Creates a single column out of the 
+
+**Dummy to Categorical**
+One-hot encodes all unique values in a column and creates a seprate column for each value. 
+
+**Dummy to Boolean**
+Changes the 1 and 0 in a column to True and False. 
+
+**Boolean to Dummy**
+Changes the True and False in a column to 1 and 0. 
+
+
+
 ## Setup:
 
 **Running the file:**
