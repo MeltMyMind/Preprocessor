@@ -1,4 +1,4 @@
-# Preprocessor
+# PreProHelper
 Tool to preprocess datasets
 
 This is a nice little tool to help anybody with preprocessing csv files for machine learning. I'm still working on it, but it can be used already nonetheless. 
