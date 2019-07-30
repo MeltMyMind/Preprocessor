@@ -95,9 +95,23 @@ pip install -r requirements.txt
 
 Type in the name of the dataset in the directory you want to import (ex: mydataset.csv). If you want to change the directory, please click on the button Change Dir.  
 
-<img src="https://imgur.com/6uJdq2t.png"/>
+<img src="https://iimgurmgur.com/6uJdq2t.png"/>
 
 Note: Currently only csv's are supported. Other file types will be implemented shortly. 
+
+**Main Overview:**
+
+<img src="https://imgur.com/sn6gC5A.png"/>
+
+The main overview shows the types of columns of the dataset. 
+
+The **first textbox** (from the left) shows all columns in the dataset. 
+Here, the user can perform various functions by selecting a column from the textbox and then clicking on either of the following buttons: 
+
+*- Delete Column*
+*- Rename*
+
+The other four textboxes show the types of the various columns in the dataset. Namely: Numerical-, Categorical-, Dummy- and Boolean Columns. Under each textbox there are buttons, which transform the selected column/columns of the textbox above accordingly. See *Arrow functions* for a more detailed description. 
 
 **Export newly created dataset:**
 
