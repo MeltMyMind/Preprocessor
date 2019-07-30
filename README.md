@@ -10,7 +10,7 @@ In my young datascience carreer, I have spent quite some time with preprocessing
 
 ## Main functionalities 
 
-To exmplain the functionalities, the syntaxt Columnname: (Columnentry, Columnentry, Columnentry) is used. So for example Animals :("Dog", "Cat", "Mouse", "Bird") would indicate a column with the entries "Dog", "Cat", "Mouse" and "Bird".
+To illustrate the basic funcionalities of the PreProHelper, the syntax *Columnname: (Columnentry, Columnentry, Columnentry)* is used. So for example *Animals: ("Dog", "Cat", "Mouse", "Bird")* would indicate a column with the Name *Animals* and the entries *"Dog", "Cat", "Mouse" and "Bird"*.
 
 **Numerical to Categorical**
 Changes the numbers in a column to strings.
