@@ -16,37 +16,37 @@ Also, one might notice that there are arrows pointing either to the right or lef
 
 ### Arrow functions
 
-**Numerical to Categorical**
+**Numerical to Categorical**:
 Changes the numbers in a column to strings.
 
 Example: 
 *DayOfTheWeek: (1, 2, 7, 3)* becomes *DayOfTheWeek: ("1", "2", "7", "3")*
 
-**Categorical to Numerical**
+**Categorical to Numerical**:
 Labelencodes the strings in a column to numbers.
 
 Example: 
 *Animals: ("Cat", "Dog", "Mouse", "Cat")* becomes *Animals: (0, 1, 2, 0)*.
 
-**Categorical to Dummy**
+**Categorical to Dummy**:
 One-hot encodes all unique values in a column and creates a separate column for each value.
 
 Example: 
 *Animals: ("Dog", "Mouse", "Cat", "Mouse")* becomes *Dog: (1, 0, 0, 0)* and *Cat: (0, 0, 1, 0)* and *Mouse: (0, 1, 0, 1)*
 
-**Dummy to Categorical**
+**Dummy to Categorical**:
 Creates a single column out of multiple dummy encoded columns. 
 
 Example: 
 *Dog: (1, 0, 0, 0, 0)* and *Cat: (0, 0, 1, 0, 1)* becomes *Animals: ("Dog", "Unknown", "Cat", "Unknown", "Cat")*.
 
-**Dummy to Boolean**
+**Dummy to Boolean**:
 Changes the 1 and 0 in a column to True and False. 
 
 Example: 
 *isAnimal: (1, 0, 1, 0, 1)* becomes *isAnimal: (True, False, True, False, True)*
 
-**Boolean to Dummy**
+**Boolean to Dummy**:
 Changes the True and False in a column to 1 and 0. 
 
 Example: 
@@ -55,17 +55,17 @@ Example:
 ### Other functions
 To execute any of the other function, one always needs to press a button to trigger them. Here is short explanation of all the other functions: 
 
-**Delete Column**
+**Delete Column**:
 Deletes a column from the dataset. 
 
 Howto: Select a column from the textbox *All Columns of the dataset* and then click on the *Delete Column* button.
 
-**Binning**
+**Binning**:
 Changes a numerical column into numerical bins.
 
 Howto: First, select a column from the *Numerical Columns* textbox. Then type in the number of bins you want to create from these numerical columns (entry field below *Binning* button). At last, click on the button *Binning*.
 
-**Rename**
+**Rename**:
 Renames any column. 
 
 Howto: Select a column from the textbox *All Columns of the dataset*. Then, type n a new name for the column int the textfield below the *Rename* button. Then, click on *Rename* to rename the selected column. 
