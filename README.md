@@ -101,7 +101,7 @@ Note: Currently only csv's are supported. Other file types will be implemented s
 
 **Export newly created dataset:**
 
-<img src= "https://imgur.com/BcT5lXt.ong" />
+<img src= "https://imgur.com/BcT5lXt.png" />
 
 Once you are done with preprocessing your dataset, you can export it. Simply type in the name of your new dataset (ie: newDataset.csv) and click on *Export Dataset*. As a nice feature, you can also standardise chosen numerical columns when exporting. First, click on the radiobutton "Standardise". Then, simply select as many columns as you want to standardise in the *Numerical Columns* textbox. Once you have selected the columns, you can click on the *Export Dataset* button. 
 
