@@ -24,11 +24,11 @@ pip install -r requirements.txt
 
 **Import dataset:**
 
-Currently only csv's are supported. Other file types will be implemented shortly. 
-
 Type in the name of the dataset in the directory you want to import (ex: mydataset.csv). If you want to change the directory, please click on the button Change Dir.  
 
 <img src="https://imgur.com/6uJdq2t.png"/>
+
+Note: Currently only csv's are supported. Other file types will be implemented shortly. 
 
 
 **Overview:**
