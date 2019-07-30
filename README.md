@@ -109,6 +109,7 @@ The **first textbox** (from the left) shows all columns in the dataset.
 Here, the user can perform various functions by selecting a column from the textbox and then clicking on either of the following buttons: 
 
 *- Delete Column*
+
 *- Rename*
 
 The other four textboxes show the types of the various columns in the dataset. Namely: Numerical-, Categorical-, Dummy- and Boolean Columns. Under each textbox there are buttons, which transform the selected column/columns of the textbox above accordingly. See *Arrow functions* for a more detailed description. 
