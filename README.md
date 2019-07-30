@@ -114,7 +114,7 @@ Here, the user can perform various functions by selecting a column from the text
 
 The other four textboxes show the types of the various columns in the dataset. Namely: Numerical-, Categorical-, Dummy- and Boolean Columns. Under each textbox there are buttons, which transform the selected column/columns of the textbox above accordingly. See *Arrow functions* for a more detailed description. 
 
-**Export newly created dataset**
+**Export newly created dataset:**
 
 <img src= "https://imgur.com/BcT5lXt.png" />
 
