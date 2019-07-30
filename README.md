@@ -70,7 +70,13 @@ Renames any column.
 
 Howto: Select a column from the textbox *All Columns of the dataset*. Then, type n a new name for the column int the textfield below the *Rename* button. Then, click on *Rename* to rename the selected column. 
 
-## Setup:
+**Remove NAs**:
+Deletes all rows in the dataset that contain any NAs
+
+Howto: Simply click on the button *Remove NAs*.
+
+
+## Setup
 
 **Running the file:**
 The setup is fairly simple, since it is only one python file "PreproHelper.py" which one needs to run. After running the file, a new window will open, which the user can then use to preprocess his/her dataset. 
@@ -83,7 +89,7 @@ To install all the necessary dependencies, use pip in the terminal/command line 
 
 pip install -r requirements.txt
 
-## Description:
+## Getting started:
 
 **Import dataset:**
 
@@ -92,7 +98,6 @@ Type in the name of the dataset in the directory you want to import (ex: mydatas
 <img src="https://imgur.com/6uJdq2t.png"/>
 
 Note: Currently only csv's are supported. Other file types will be implemented shortly. 
-
 
 **Overview:**
 
