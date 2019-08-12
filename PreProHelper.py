@@ -254,6 +254,11 @@ def removeNAs():
     dataset = dataset.dropna()
     update_all()
 
+def showNrColumns():
+    len(dataset.columns)
+
+def showNrRows():
+    len(dataset)
 
 def changeDir():
     global dirName
@@ -318,8 +323,8 @@ window.grid_columnconfigure(6, minsize=160)
 window.grid_rowconfigure(0, minsize=40)
 
 window.iconbitmap('SUPERINTELLIGENCE.ico')
-window.title("PrePro-Helper")
-window.geometry("1000x700")
+window.title("PreProHelper")
+window.geometry("1200x700")
 window.resizable(0, 0)
 
 img = PhotoImage(file="robo.png")
