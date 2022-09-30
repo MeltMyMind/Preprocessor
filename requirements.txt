@@ -1,6 +1,6 @@
 altgraph==0.16.1
 future==0.17.1
-joblib==0.13.2
+joblib==1.2.0
 macholib==1.11
 numpy==1.16.4
 pandas==0.24.2
